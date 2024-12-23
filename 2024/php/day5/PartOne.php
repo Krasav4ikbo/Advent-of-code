@@ -19,7 +19,7 @@ class PartOne extends AdventTask
             }
 
             if ($correct) {
-                $this->result += $n[count($n) / 2];
+                $this->result += (int) $n[count($n) / 2];
             }
 
             $i++;
