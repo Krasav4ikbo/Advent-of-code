@@ -29,6 +29,4 @@ class PartTwo extends PartOne
             $i++;
         }
     }
-
-
 }

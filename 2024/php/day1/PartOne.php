@@ -3,9 +3,9 @@ include_once './../AdventTask.php';
 
 class PartOne extends AdventTask
 {
-    protected $left = [];
+    protected array $left = [];
 
-    protected $right = [];
+    protected array $right = [];
 
     public function execute(): void
     {
@@ -16,7 +16,7 @@ class PartOne extends AdventTask
         }
     }
 
-    protected function sortLeftRight()
+    protected function sortLeftRight(): void
     {
         foreach ($this->table as $row) {
             $numbers = explode('   ', $row);

@@ -10,7 +10,7 @@ class PartOne extends AdventTask
         }
     }
 
-    public function calculate($string)
+    public function calculate($string): void
     {
         preg_match_all('~mul\(\d{1,3},\d{1,3}\)~', $string, $matches);
 

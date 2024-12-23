@@ -18,7 +18,7 @@ class PartOne extends AdventTaskSplit
         }
     }
 
-    public function search($i, $j, $currentLetter, $way)
+    public function search($i, $j, $currentLetter, $way): void
     {
         if ($currentLetter === count($this->letters) - 1) {
             $this->result++;

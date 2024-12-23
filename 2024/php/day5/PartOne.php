@@ -26,7 +26,7 @@ class PartOne extends AdventTask
         }
     }
 
-    protected function getNumbers()
+    protected function getNumbers(): array
     {
         $i = 0;
         $numbers = [];

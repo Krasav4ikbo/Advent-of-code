@@ -3,7 +3,7 @@ include_once './../AdventTask.php';
 
 class PartTwo extends AdventTask
 {
-    public function getUnsafe($numbers)
+    public function getUnsafe($numbers): array
     {
         $unsafe = [];
         if ($numbers[0] - $numbers[1] < 0) {
